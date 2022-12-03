@@ -24,4 +24,4 @@ The normal state is the beginning of the state while reading the c code. It puts
 
 3. When (‘\” ’) is encountered the state changes to the string literal state. Here it puts every character encountered in the state. The state checks for (‘\” ’) to be encountered again to return to the normal state. Transition to the string literal state is only possible from the normal state.
 
-4. When (‘ \’ ’) is encountered the state changes to the character literal state. Here it puts every character encountered in the state. The state checks for (‘ \’ ’) to be encountered again to return to the normal state. And likewise, the transition to the character literal state is only possible from the normal state.
+4. When (‘ \’ ’) is encountered the state changes to the character literal state. Here it puts every character encountered in the state. The state checks for (‘ \’ ’) to be encountered again to return to the normal state. And likewise, the transition to the character literal state is only possible from the normal state. 
